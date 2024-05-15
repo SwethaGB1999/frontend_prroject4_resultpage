@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+.main-container{
+    display: flex;
+}
+
+.left{
+    width: 250px;
+    height: 350px;
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 25px;
+    color: white;
+}
+.right{
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 10px 10px 25px rgba(0,0,0,0.1);
+    
+}
+.container-left{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    gap: 10px;
+    
+}
+.container-right{
+    display: flex;
+    flex-direction: column;
+    padding: 33px;
+    align-items: center;
+    gap: 10px;
+    align-items: stretch;
+    font-size: 14px;
+    
+    
+    
+    
+}
+.circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin-top: 15px;
+    margin-bottom: 20px;   
+}
+
+.marks{
+    font-size: 50px;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+}
+.great{
+    font-size: 20px;
+}
+.left-p{
+    color: hsl(221, 12%, 75%);
+    font-size: 14px;
+}
+.summary{
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.red{
+    display: flex;
+    background-color:hsl(0, 47%, 97%);
+    padding: 10px;
+    border-radius:5px;
+    color: hsl(0, 100%, 67%);
+    justify-content:space-between;
+}
+.yellow{
+    display: flex;
+    background-color: hsl(60, 77%, 93%);
+    padding: 10px;
+    border-radius:5px;
+    color: hsl(39, 100%, 56%);
+    justify-content:space-between;
+}
+.green{
+    display: flex;
+    background-color: hsl(167, 74%, 94%);
+    padding: 10px;
+    border-radius:5px;
+    color: hsl(166, 100%, 37%);
+    justify-content:space-between;
+}
+.violet{
+    display: flex;
+    background-color: hsl(234, 83%, 93%);
+    padding: 10px;
+    border-radius:5px;
+    color: hsl(234, 85%, 45%);
+    justify-content:space-between;
+}
+button{
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: hsl(221, 12%, 75%);
+}
+button:hover{
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+
+}
+.container-right span{
+    color: black;
+}
+svg{
+    align-self: flex-start;
+}
+.score>div{
+    display: flex;
+    
+}
+svg{
+    height:14px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
